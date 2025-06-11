@@ -5,7 +5,7 @@ import Contact from "./Contact";
 import Hero from "./Hero";
 import Journey from "./Journey";
 import Services from "./Services";
-import Work from "./Work";
+import Work from "./work";
 import FixedMenu from "./FixedMenu";
 
 const Home = () => {

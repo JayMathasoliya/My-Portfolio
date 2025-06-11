@@ -60,7 +60,7 @@ const About = () => {
               />
               <p className="text-lg">Full-Stack Web Developer (MERN Stack)</p>
             </div>
-            <p className="max-w-[680px] mx-auto xl:mx-0 mb-2">
+            <p className="text-sm xl:text-base max-w-[680px] mx-auto xl:mx-0 mb-2">
               I&apos;m a Frontend & MERN Stack Developer with a strong focus on
               creating responsive, user-friendly web applications. With hands-on
               experience in React, Next.js, and RESTful APIs, I enjoy turning
