@@ -7,19 +7,19 @@ import { RiInstagramFill } from "react-icons/ri";
 const socials = [
   {
     icon: <FaLinkedin />,
-    path: "",
+    path: "https://www.linkedin.com/in/jay-mathasoliya",
   },
   {
     icon: <FaGithub />,
-    path: "",
+    path: "https://github.com/JayMathasoliya",
   },
   {
     icon: <IoMdMail />,
-    path: "",
+    path: "mailto:jaymathasoliya@gmail.com",
   },
   {
     icon: <RiInstagramFill />,
-    path: "",
+    path: "https://www.instagram.com/itz_jay_0812?igsh=OGhvdGoxNDY4em9u",
   },
 ];
 

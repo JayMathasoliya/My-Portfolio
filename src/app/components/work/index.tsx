@@ -6,39 +6,39 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
-    href: "",
-    category: "fullstack",
-    img: "/assets/work/thumb-1.png",
-    title: "shopAll | E-commerce Website",
-  },
-  {
-    href: "",
+    href: "https://github.com/JayMathasoliya/Facebook-Clone",
     category: "fullstack",
     img: "/assets/work/thumb-1.png",
     title: "MySocialWeb | Facebook Clone",
   },
   {
-    href: "",
+    href: "https://github.com/JayMathasoliya",
+    category: "fullstack",
+    img: "/assets/work/thumb-2.png",
+    title: "shopAll | E-commerce Website",
+  },
+  {
+    href: "https://github.com/JayMathasoliya/News_App",
     category: "frontend",
-    img: "/assets/work/thumb-1.png",
+    img: "/assets/work/thumb-3.png",
     title: "NewsMonkey | News App",
   },
   {
-    href: "",
+    href: "https://github.com/JayMathasoliya/PDF-TOOLS",
     category: "fullstack",
-    img: "/assets/work/thumb-1.png",
+    img: "/assets/work/thumb-4.png",
     title: "PDF Tools",
   },
   {
-    href: "",
+    href: "https://github.com/JayMathasoliya/Dance_Academy_Website",
     category: "frontend",
-    img: "/assets/work/thumb-1.png",
+    img: "/assets/work/thumb-5.png",
     title: "Dance Academy Website",
   },
   {
-    href: "",
+    href: "https://github.com/JayMathasoliya/TrackForSafe_Admin_Panel",
     category: "fullstack",
-    img: "/assets/work/thumb-1.png",
+    img: "/assets/work/thumb-6.png",
     title: "Track For Safe Admin Panel",
   },
 ];
@@ -108,7 +108,10 @@ const Work = () => {
 
             {visibleItems < filterWork.length && (
               <div className="flex justify-center mt-12">
-                <button className="btn btn-accent cursor-pointer" onClick={handleMoreItems}>
+                <button
+                  className="btn btn-accent cursor-pointer"
+                  onClick={handleMoreItems}
+                >
                   Load More
                 </button>
               </div>

@@ -7,6 +7,7 @@ import Journey from "./Journey";
 import Services from "./Services";
 import Work from "./work";
 import FixedMenu from "./FixedMenu";
+import Footer from "./Footer";
 
 const Home = () => {
   useEffect(() => {
@@ -25,7 +26,7 @@ const Home = () => {
       <Journey />
       <Work />
       <Contact />
-      <div className="h-[3000px]"></div>
+      <Footer />
     </>
   );
 };
