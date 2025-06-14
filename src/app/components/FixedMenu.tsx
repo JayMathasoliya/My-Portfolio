@@ -37,7 +37,7 @@ const FixedMenu = () => {
   if (!isMounted) return null;
 
   return (
-    <div className="fixed bottom-18 w-full h-[400px] z-50 flex justify-center pointer-events-none bg-transparent">
+    <div className="fixed bottom-14 w-full h-[400px] z-50 flex justify-center pointer-events-none bg-transparent">
       <div className="relative w-full z-50">
         <AnimatePresence>
           {showMenu && showMenuButton && (
@@ -54,6 +54,7 @@ const FixedMenu = () => {
                   listStyles="flex flex-col justify-center gap-4"
                   linkStyles="font-primary text-4xl text-primary cursor-pointer"
                   spy={true}
+                  onLinkClick={() => setShowMenu(false)}
                 />
                 <div className="hidden md:flex mx-auto">
                   <div>

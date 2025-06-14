@@ -25,6 +25,7 @@ type NavbarProps = {
   listStyles?: string;
   linkStyles?: string;
   spy?: boolean;
+  onLinkClick?: () => void;
 };
 
 const Navbar = ({
@@ -32,6 +33,7 @@ const Navbar = ({
   listStyles,
   linkStyles,
   spy,
+  onLinkClick,
 }: NavbarProps) => {
   return (
     <nav className={containerStyles}>
@@ -45,6 +47,7 @@ const Navbar = ({
               to={link.name}
               smooth
               className={linkStyles}
+              onClick={onLinkClick}
             >
               {link.name}
             </ScrollLink>

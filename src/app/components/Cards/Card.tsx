@@ -36,6 +36,7 @@ const Card = ({
                 src="/assets/journey/shape.svg"
                 width={16}
                 height={16}
+                className="w-auto h-auto"
                 alt="journey-shape-img"
               />
               <h3 className="text-lg font-semibold text-primary">
