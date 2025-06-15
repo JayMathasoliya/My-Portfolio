@@ -15,9 +15,17 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "Jay Mathasoliya | Full Stack Developer",
+  title: "Jay Mathasoliya | Associate Software Engineer | MERN Stack Developer",
   description:
-    "Explore the portfolio of Jay Mathasoliya, a passionate Full Stack Developer specializing in modern web technologies like React, Next.js, and TypeScript.",
+    "Welcome to the portfolio of Jay Mathasoliya, an Associate Software Engineer with hands-on experience in building scalable web applications using React, Next.js, and the MERN stack.",
+  keywords: [
+    "Jay Mathasoliya",
+    "Web Developer",
+    "Portfolio",
+    "React",
+    "Next.js",
+    "Frontend",
+  ],
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-32x32.png",

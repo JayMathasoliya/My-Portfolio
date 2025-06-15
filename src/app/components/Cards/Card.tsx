@@ -31,7 +31,7 @@ const Card = ({
       <div className="w-full h-[280px] border border-accent/80 bg-[#F4FFFF] rounded-[8px]">
         <div className="flex flex-col h-full">
           <div className="h-[90px] xl:h-[70px] bg-white flex flex-col xl:flex-row justify-center xl:justify-between items-center px-6 md:px-[84px] rounded-tl-[8px] rounded-tr-[8px]">
-            <div className="flex gap-2">
+            <div className="flex items-center justify-center gap-2">
               <Image
                 src="/assets/journey/shape.svg"
                 width={16}
@@ -39,7 +39,7 @@ const Card = ({
                 className="w-auto h-auto"
                 alt="journey-shape-img"
               />
-              <h3 className="text-lg font-semibold text-primary">
+              <h3 className="text-sm sm:text-lg font-semibold text-primary">
                 {type === "experience"
                   ? position
                   : type === "education"
@@ -47,7 +47,7 @@ const Card = ({
                   : duration}
               </h3>
             </div>
-            <p className="text-base">
+            <p className="text-sm sm:text-base">
               {type !== "experience" && type !== "education" ? null : duration}
             </p>
           </div>

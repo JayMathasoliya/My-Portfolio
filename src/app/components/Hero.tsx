@@ -6,6 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 import RotatingShape from "./RotatingShape";
 import Header from "./Header";
 import Stats from "./Stats";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -30,9 +31,14 @@ const Hero = () => {
             Delivering powerful, custom websites that blend aesthetics with
             performance.
           </p>
-          <ScrollLink to="contact" smooth>
-            <button className="btn btn-accent mb-8">Contact me</button>
-          </ScrollLink>
+          <div className="flex items-center gap-3 mb-8">
+            <Link href="/assets/resume/Jay Mathasoliya Resume.pdf" download={true}>
+              <button className="btn border border-accent text-primary">Download a CV</button>
+            </Link>
+            <ScrollLink to="contact" smooth>
+              <button className="btn btn-accent">Contact me</button>
+            </ScrollLink>
+          </div>
 
           {/* stats */}
           <Stats />

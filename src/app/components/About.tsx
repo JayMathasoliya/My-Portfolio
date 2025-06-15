@@ -58,15 +58,17 @@ const About = () => {
                 text="My name is Jay Mathasoliya"
                 textStyles="h2 mb-2"
               />
-              <p className="text-lg">Full-Stack Web Developer (MERN Stack)</p>
+              <p className="text-lg">
+                Associate Software Engineer | MERN Stack Developer
+              </p>
             </div>
             <p className="text-sm xl:text-base max-w-[680px] mx-auto xl:mx-0 mb-2">
-              I&apos;m a Frontend & MERN Stack Developer with a strong focus on
-              creating responsive, user-friendly web applications. With hands-on
+              I&apos;m a Frontend and MERN Stack Developer with a focus on building
+              responsive, user-friendly web applications. With hands-on
               experience in React, Next.js, and RESTful APIs, I enjoy turning
-              ideas into clean, efficient code. I&apos;m passionate about
-              building modern web experiences and continuously learning new
-              technologies to grow as a developer.
+              ideas into clean, maintainable code. Passionate about modern web
+              experiences, I&apos;m always exploring new technologies to grow as a
+              developer.
             </p>
 
             {/* info items */}

@@ -47,7 +47,7 @@ const journey = [
   },
   {
     type: "education",
-    institution: "Gujarat Higher Secondary Education Board, Gandhinagar",
+    institution: "Crystal International Public School, Ahmedabad",
     logoUrl: "/assets/journey/education/logo-2.png",
     qualification: "12th Science (GHSEB)",
     duration: "June 2018 – June 2020",
@@ -56,8 +56,8 @@ const journey = [
   },
   {
     type: "education",
-    institution: "Gujarat Secondary Education Board, Gandhinagar",
-    logoUrl: "/assets/journey/education/logo-2.png",
+    institution: "Shree V.K Vidhyalaya, Ahmedabad",
+    logoUrl: "/assets/journey/education/logo-3.png",
     qualification: "10th (GSEB)",
     duration: "June 2017 – June 2018",
     description:
